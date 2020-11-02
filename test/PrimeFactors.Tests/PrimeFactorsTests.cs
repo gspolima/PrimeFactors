@@ -6,10 +6,10 @@ using PrimeFactors;
 
 namespace PrimeFactors.Tests
 {
-    public class primeFactorsTests
+    public class PrimeFactorsTests
     {
         [Fact]
-        public void CheckCorrectprimeFactors()
+        public void ReturnCorrectPrimeFactors()
         {
             var primeFactors = new PrimeFactors();
 
